@@ -1,0 +1,20 @@
+{
+  "name": "GMail Background Image Size Fixer",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Is your gmail background image size being set to some huge value, causing your eyes pain and making you hate life? Me too. Here's a little hack to make it go away. Skeleton code from extensionizr.io.",
+  "homepage_url": "http://github.com/knksmith57/chrome-gmail-bg-image-size-fixer",
+  "permissions": [
+    "*://mail.google.com/*, *://gmail.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://mail.google.com/*"
+      ],
+      "js": [
+        "gmail-background-image-size-fixer.min.js"
+      ]
+    }
+  ]
+}
