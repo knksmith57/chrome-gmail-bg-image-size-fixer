@@ -19,23 +19,22 @@ You can check out the `Gruntfile.js` if you'd like, but [it's pretty basic][2]; 
 ## Loading into Chrome
 
 After running `grunt`, the tidied up extension files will be dropped into the `dist` directory. Make note of where this is,
-then hop into chrome and load up [chrome://extensions][3] and do the following:
+then hop into chrome and load up `chrome://extensions` and do the following:
 
 1. ✔ **Developer Mode** in the top right corner
 2. Click on **Load unpacked extension**
 3. Select the `dist` directory
 
-By the way, these directions are verbatim from the [Chrome Getting Started][4] page.
+By the way, these directions are verbatim from the [Chrome Getting Started][3] page.
 
 
 ## Contributing
 
-Pull requests are always welcome, or you can get at me with any suggestions --> [@knksmith57][5].
+Pull requests are always welcome, or you can get at me with any suggestions --> [@knksmith57][4].
 _Disclaimer: This is my **first ever** chrome extension. It's probably **the** worst way to build this sort of tweak_
 
 
 [1]: http://gruntjs.com/
-[2]: https://github.com/knksmith57/chrome-gmail-bg-image-size-fixer/blog/master/Gruntfile.js
-[3]: chrome://extensions
-[4]: http://developer.chrome.com/extensions/getstarted.html#unpacked
-[5]: http://twitter.com/knksmith57
+[2]: https://github.com/knksmith57/chrome-gmail-bg-image-size-fixer/blob/master/Gruntfile.js
+[3]: http://developer.chrome.com/extensions/getstarted.html#unpacked
+[4]: http://twitter.com/knksmith57
